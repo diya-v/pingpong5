@@ -1,0 +1,37 @@
+body
+{
+
+}
+.heading{
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading h1{
+    display: inline;
+}
+.heading button{
+    float: right;
+}
+
+#instructions:hover{
+    background-color: rgba(255, 255, 255, 0.304);
+    color:rgb(255, 255, 255);
+    border-style: groove;
+    border-width: 5px;
+    border-color: white;
+}
+#footer{
+    width: 100%;
+    bottom:0;
+    background-color: white;
+    text-align:center;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+canvas{
+    border-width: 5px;
+    border-style: ridge;
+    border-color: cyan;
+}
